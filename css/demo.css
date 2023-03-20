@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*!
+ * agilebins v1.0.4
+ *
+ * 快速解决网站上大部分特效展示...
+ * 官网: http://ab.geshai.com
+ * 
+ *有疑难问题可选择QQ群① 158544200 或QQ群② 790370978 进行反馈
+ *
+ * 请尊重原创，保留头部版权
+ * 在保留版权的前提下，可应用于个人或商业用途
+ *
+ */
+/* 七、幻灯片演示 */
+
+ .domo-slides { margin:0 auto; width:540px; height:380px; zoom:1; position:relative; }
+.domo-slides .conts { width:540px; height:300px; border-radius:8px; position:relative; overflow:hidden;}
+	.domo-slides .conts ul { width:540px; height:300px; }
+	.domo-slides .conts li { width:540px; height:300px; text-align:center; overflow:hidden; position:relative; }
+	
+.domo-slides .conts li a { display:block; width:540px; height:300px; background:#f9fdff; overflow:hidden; }
+.domo-slides .conts li a:hover {  color:#fff; background:#4ad585; border-radius:8px; text-decoration:none; }
+
+.domo-slides .prev, .domo-slides .next { z-index:1; position:absolute; top:50%; margin-top:-25px; display:block; width:42px; height:42px; line-height:40px; font-size:24px; color:#fff; border-radius:50px; background:#b2d5ed; text-align:center; font-family:"Comic Sans MS", cursive; cursor:pointer; }
+	.domo-slides .prev { left:-80px; background:#b66a4c; }
+	.domo-slides .prev:hover, .domo-slides .next:hover { background:#dc6130; color:#fff; }
+	.domo-slides .next { right:-80px; background:#b66a4c; }
+
+	.domo-slides .textList { text-align:center; height:40px; line-height:20px; padding:0px 15px; color:#1eb4e5; font-size:12px; overflow:hidden; }
+		.domo-slides .textList .pageNav { line-height:20px; color:#1eb4e5; }
+			.domo-slides .textList .pageNav font { font-size:14px; padding:0 5px; line-height:20px; color:#b2d5ed; font-style:italic; }
+				.domo-slides .textList .pageNav .current { font-size:18px; padding-right:8px; }
+				
+.domo-slides .tabs { width:100%; height:18px; line-height:18px; position:absolute; z-index:1; bottom:0; left:0; font-family:"Comic Sans MS", cursive; overflow:hidden; }
+	.domo-slides .tabs ul { text-align:center; height:18px; }
+	.domo-slides .tabs ul li { color:#0c91e8; font-size:12px; width:8px; height:8px; line-height:99px; border-radius:8px; font-style:italic; margin:0 5px; background:#d9bdaf; cursor:pointer; display:inline-block; *display:inline; zoom:1; overflow:hidden; }
+	.domo-slides .tabs ul .current { color:#fff; background:#dc6130 !important; }
+
+
+.domo-slides .play, .domo-slides .pause {  color:#000; right:50%; margin-right:-46px; top:96%; font-size:14px; position:absolute; cursor:pointer; width:90px; height:35px; margin-top:-34px; z-index:4; font-weight:bold;}  								
+.domo-slides .play:hover, .domo-slides .pause:hover {  color:#dc6130;}  								
+			
+				
+				
+				
+				
